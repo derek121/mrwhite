@@ -27,4 +27,7 @@ create_parser_from_ws:
 	@echo
 	@mv priv/from_whitespace_parser.erl src/
 	
+#
 
+test:
+	@rebar3 eunit
