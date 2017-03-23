@@ -74,10 +74,6 @@ L[{S}{T}]+{L}               : {token, {ws_label,  TokenLine, tl(TokenChars)}}.
 
 Erlang code.
 
--define(S,  32).
--define(T,  9).
--define(LF, 10).
-
 extract_number_or_label(StartIdx, TokenChars) ->
   %io:format("XXX StartIdx: ~p. TokenChars: ~p~n", [StartIdx, TokenChars]),
   % The number starts at StartIdx (1-based), but nthtail is 0-based
