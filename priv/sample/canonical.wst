@@ -1,0 +1,16 @@
+stack push 1
+flow mark stsssstt
+stack duplicate
+io output_num
+stack push 10
+io output_char
+stack push 1
+arith add
+stack duplicate
+stack push 11
+arith sub
+flow jump_zero stssstst
+flow jump stsssstt
+flow mark stssstst
+stack discard
+flow end_program

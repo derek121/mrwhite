@@ -1,0 +1,23 @@
+stack push 0
+stack push 33
+stack push 101
+stack push 111
+stack push 74
+stack push 32
+stack push 111
+stack push 108
+stack push 108
+stack push 101
+stack push 72
+
+flow mark s
+io output_char
+stack duplicate
+flow jump_zero st
+flow jump s
+
+flow mark st
+stack push 10
+io output_char
+flow end_program
+
