@@ -1,2 +1,0 @@
-The from_*.erl files are the generated lex and parse modules, via Makefile. make generates them and places them in src/ . They are here just as an example.
-
