@@ -31,4 +31,7 @@ The canonical example at the [Whitespace page](http://compsoc.dur.ac.uk/whitespa
 ok
 ```
 
+## Presentaion
+
+Mr. White was presented in a lighning talk at [Erlang & Elixir Factory SF Bay Area 2017](http://www.erlang-factory.com/sfbay2017/) ([slides](https://github.com/derek121/mrwhite/priv/mrwhite.pdf))
 
