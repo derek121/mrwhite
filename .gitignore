@@ -4,7 +4,3 @@ _build/
 rebar.lock
 mrwhite.iml
 erl_crash.dump
-src/from_whitespace_lexer.erl
-src/from_whitespace_parser.erl
-src/from_text_lexer.erl
-src/from_text_parser.erl

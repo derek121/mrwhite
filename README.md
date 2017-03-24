@@ -31,6 +31,10 @@ The canonical example at the [Whitespace page](http://compsoc.dur.ac.uk/whitespa
 ok
 ```
 
+## Building
+
+`$ make` will run the lexing and parsing steps, move the generated Erlang modules to `src/`, compile, and run Eunit tests.
+
 ## Presentation
 
 Mr. White was presented in a lighning talk at [Erlang & Elixir Factory SF Bay Area 2017](http://www.erlang-factory.com/sfbay2017/) ([slides](https://github.com/derek121/mrwhite/blob/master/priv/mrwhite.pdf))
