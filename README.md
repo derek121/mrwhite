@@ -8,7 +8,7 @@ Besides the execution of Whitespace programs, this application also supports exe
 For example, pushing a value of 5 onto the stack in Whitespace is coded as SSSTSTL, where S, T, and L represent a space, tab, and linefeed, respectively. This can be seen by the following:
 
 ```
-1> W = mrwhite_from_text:covert("stack push 5", return).
+1> W = mrwhite_from_text:convert("stack push 5", return).
 "   \t \t\n"
 2> mrwhite_from_whitespace:convert(W, return).
 "stack push 5\n"
