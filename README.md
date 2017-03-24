@@ -37,5 +37,5 @@ ok
 
 ## Presentation
 
-Mr. White was presented in a lighning talk at [Erlang & Elixir Factory SF Bay Area 2017](http://www.erlang-factory.com/sfbay2017/) ([slides](https://github.com/derek121/mrwhite/blob/master/priv/mrwhite.pdf))
+Mr. White was presented in a lightning talk at [Erlang & Elixir Factory SF Bay Area 2017](http://www.erlang-factory.com/sfbay2017/) ([slides](https://github.com/derek121/mrwhite/blob/master/priv/mrwhite.pdf))
 
