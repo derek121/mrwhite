@@ -6,12 +6,6 @@
 -include_lib("eunit/include/eunit.hrl").
 -endif.
 
-%%% Illegal:
-%%% X end_sub if no corresponding call_sub
-%%% X running out of ops (need end_prog)
-%%% X unknown label for call sub
-%%% X unknown heap address
-
 run(Ops) ->
   {Ops2, Labels} = find_labels(Ops),
   Stack = [],
