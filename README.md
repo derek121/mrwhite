@@ -1,7 +1,7 @@
 # Mr. White
 ## Erlang Interpreter for the Whitespace Language
 
-[Whitespace](http://compsoc.dur.ac.uk/whitespace/tutorial.html) is an imperative, stack-based language whose only significant characters are space, tab, and linefeed. Operations consists of an instruction type followed by the command. The interpreter maintains a stack of integers and a heap.
+[Whitespace](http://compsoc.dur.ac.uk/whitespace/tutorial.html) is an imperative, stack-based language whose only significant characters are space, tab, and linefeed. Operations consist of an instruction type followed by the command. The interpreter maintains a stack of integers and a heap.
 
 Besides the execution of Whitespace programs, this application also supports execution of, and conversion between, a textual format that makes it easier to understand what the program is doing.
 
@@ -37,5 +37,5 @@ ok
 
 ## Presentation
 
-Mr. White was presented in a lightning talk at [Erlang & Elixir Factory SF Bay Area 2017](http://www.erlang-factory.com/sfbay2017/) ([slides](https://github.com/derek121/mrwhite/blob/master/priv/mrwhite.pdf)) ([video](https://www.youtube.com/watch?v=SGw_MACpYZM&list=LLC2ow-YjQdKuWy9M2pardeg&index=1&t=4s))
+I presented Mr. White in a lightning talk at [Erlang & Elixir Factory SF Bay Area 2017](http://www.erlang-factory.com/sfbay2017/) ([slides](https://github.com/derek121/mrwhite/blob/master/priv/mrwhite.pdf)) ([video](https://www.youtube.com/watch?v=SGw_MACpYZM&list=LLC2ow-YjQdKuWy9M2pardeg&index=1&t=4s))
 
